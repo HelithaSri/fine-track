@@ -1,0 +1,45 @@
+.land-main {
+    background-color: aqua;
+    height: 92vh;
+    background-image: url("../assets/land-bg.png");
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.land-sub {
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+}
+
+.land-main-text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 145px;
+}
+
+.land-main-text-2 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.para {
+    width: 40%;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.land-button {
+    display: flex;
+    gap: 10px;
+}

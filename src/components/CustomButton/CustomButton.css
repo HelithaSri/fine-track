@@ -1,0 +1,32 @@
+.custom-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  background-color: #66ff00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.custom-button:hover {
+  background-color: #0056b3;
+}
+
+.custom-button:active {
+  background-color: #004085;
+}
+
+.custom-button .icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.custom-button .icon-end {
+  margin-right: 0;
+  margin-left: 8px;
+}
